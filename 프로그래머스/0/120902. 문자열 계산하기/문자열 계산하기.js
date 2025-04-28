@@ -1,5 +1,6 @@
 function solution(my_string) {
     var answer = 0;
+    /*
     let num = '';
     let pm = 1;
     
@@ -20,6 +21,17 @@ function solution(my_string) {
         
         if(i == my_string.length-1){
             answer += Number(num) * pm; 
+        }
+    } */
+    
+    let array = [];
+    array = my_string.split(" ");
+    answer = Number(array[0]);
+    for(let i=1; i<array.length; i++){
+        if(array[i] == "+"){
+            answer += Number(array[i+1]); 
+        }else if(array[i] == "-"){
+            answer -= Number(array[i+1]);
         }
     }
     

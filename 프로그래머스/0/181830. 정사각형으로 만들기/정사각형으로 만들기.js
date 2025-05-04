@@ -3,7 +3,7 @@ function solution(arr) {
         if(arr.length < arr[0].length){
             arr.push(Array(arr[0].length).fill(0));
         }else{
-            arr.map((val,idx) => val = val.push(0));
+            arr.forEach((val) => val.push(0));
         }
     }
     

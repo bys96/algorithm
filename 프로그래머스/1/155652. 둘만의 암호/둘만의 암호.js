@@ -3,6 +3,6 @@ function solution(s, skip, index) {
     let answer = '';
     
     let b = a.filter(val => !skip.includes(val));
-    answer = s.split("").map(val => val = b.indexOf(val) + index < b.length ? b[b.indexOf(val)+index] : b[(b.indexOf(val)+index)%b.length]).join("");
+    answer = s.split("").map(val => b[(b.indexOf(val)+index)%b.length]).join("");
     return answer;
 }

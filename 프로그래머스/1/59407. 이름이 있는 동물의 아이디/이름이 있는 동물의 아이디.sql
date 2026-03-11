@@ -2,4 +2,4 @@
 SELECT animal_id
 from animal_ins
 where name  like "%"
-order by animal_id;
+order by animal_id asc;

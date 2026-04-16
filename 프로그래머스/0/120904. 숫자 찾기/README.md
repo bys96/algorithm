@@ -1,10 +1,10 @@
 # [level 0] 숫자 찾기 - 120904 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120904) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120904?language=python3) 
 
 ### 성능 요약
 
-메모리: 32.3 MB, 시간: 0.05 ms
+메모리: 9.37 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 07월 28일 20:15:42
+2026년 04월 16일 23:45:34
 
 ### 문제 설명
 

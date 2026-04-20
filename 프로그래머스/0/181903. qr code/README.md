@@ -1,10 +1,10 @@
 # [level 0] qr code - 181903 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181903) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181903?language=python3) 
 
 ### 성능 요약
 
-메모리: 33.5 MB, 시간: 0.15 ms
+메모리: 9.25 MB, 시간: 0.12 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 04월 24일 23:29:17
+2026년 04월 20일 23:09:30
 
 ### 문제 설명
 

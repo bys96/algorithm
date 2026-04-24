@@ -1,10 +1,10 @@
 # [level 0] 왼쪽 오른쪽 - 181890 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181890) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181890?language=python3) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.05 ms
+메모리: 9.16 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 04월 26일 19:45:04
+2026년 04월 24일 23:48:41
 
 ### 문제 설명
 

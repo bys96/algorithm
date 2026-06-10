@@ -1,10 +1,14 @@
 -- 코드를 입력하세요
-SELECT 
+SELECT
     CAR_ID,
-    CASE 
-        WHEN MAX(CASE 
-                 WHEN '2022-10-16' BETWEEN START_DATE AND END_DATE 
-                 THEN 1 ELSE 0 END) = 1
+    CASE
+        WHEN SUM(
+            CASE
+                WHEN '2022-10-16' BETWEEN START_DATE AND END_DATE
+                THEN 1
+                ELSE 0
+            END
+        ) > 0
         THEN '대여중'
         ELSE '대여 가능'
     END AS AVAILABILITY

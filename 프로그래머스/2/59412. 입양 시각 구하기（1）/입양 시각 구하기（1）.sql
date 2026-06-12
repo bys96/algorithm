@@ -1,6 +1,6 @@
 -- 코드를 입력하세요
-SELECT date_format(datetime,'%H') as HOUR, count(*) as COUNT
-from animal_outs
-where date_format(datetime,'%H') between '09' and '20'
-group by hour
-order by hour;
+SELECT HOUR(DATETIME) AS HOUR, COUNT(*) AS COUNT
+FROM ANIMAL_OUTS
+WHERE TIME(DATETIME) BETWEEN '09:00' AND '19:59'
+GROUP BY HOUR
+ORDER BY HOUR

@@ -2,4 +2,4 @@
 SELECT ANIMAL_ID
 from animal_ins
 where name is NULL
-order by animal_id;
+order by animal_id asc;
